@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="giD7NmBg81y94gxRD3J1">
+    <mxGraphModel dx="1441" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-6" edge="1" parent="1" source="3xYGQPMeSW1f0xWLX_ws-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="3xYGQPMeSW1f0xWLX_ws-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-25" edge="1" parent="1" source="3xYGQPMeSW1f0xWLX_ws-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="3xYGQPMeSW1f0xWLX_ws-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="110" />
+              <mxPoint x="610" y="170" />
+              <mxPoint x="680" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-26" edge="1" parent="1" source="3xYGQPMeSW1f0xWLX_ws-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="3xYGQPMeSW1f0xWLX_ws-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="110" />
+              <mxPoint x="610" y="170" />
+              <mxPoint x="820" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-27" edge="1" parent="1" source="3xYGQPMeSW1f0xWLX_ws-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="3xYGQPMeSW1f0xWLX_ws-19">
+          <mxGeometry relative="1" x="0.0952" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="110" />
+              <mxPoint x="610" y="170" />
+              <mxPoint x="540" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-28" edge="1" parent="1" source="3xYGQPMeSW1f0xWLX_ws-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#007FFF;" target="3xYGQPMeSW1f0xWLX_ws-5">
+          <mxGeometry relative="1" x="0.0571" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="110" />
+              <mxPoint x="610" y="170" />
+              <mxPoint x="400" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;" value="Login" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Create Account" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Storyboard&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 204, 204);&quot;&gt;&lt;font size=&quot;3&quot;&gt;User: Shauna&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 204, 204);&quot;&gt;&lt;font size=&quot;3&quot;&gt;Goal: Stay organized, track all expenses, see cost breakdown by category, see which category she is spending the most money&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="510" x="340" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-31" edge="1" parent="1" source="3xYGQPMeSW1f0xWLX_ws-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="3xYGQPMeSW1f0xWLX_ws-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-33" edge="1" parent="1" source="3xYGQPMeSW1f0xWLX_ws-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="3xYGQPMeSW1f0xWLX_ws-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="290" />
+              <mxPoint x="540" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;" value="Dashboard - Current Trip" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Navigation Bar" vertex="1">
+          <mxGeometry height="30" width="130" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Dashboard" vertex="1">
+          <mxGeometry height="30" width="80" x="55" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="All Trips" vertex="1">
+          <mxGeometry height="30" width="80" x="135" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="View Expenses" vertex="1">
+          <mxGeometry height="30" width="55" x="80" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Add Trip" vertex="1">
+          <mxGeometry height="30" width="80" x="215" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Leave a Review" vertex="1">
+          <mxGeometry height="30" width="80" x="295" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Add trip" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Add expense" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-35" edge="1" parent="1" source="3xYGQPMeSW1f0xWLX_ws-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="3xYGQPMeSW1f0xWLX_ws-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;" value="View Expenses" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Leave a review" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-30" edge="1" parent="1" source="3xYGQPMeSW1f0xWLX_ws-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="3xYGQPMeSW1f0xWLX_ws-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-36" edge="1" parent="1" source="3xYGQPMeSW1f0xWLX_ws-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="3xYGQPMeSW1f0xWLX_ws-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="All Trips" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#000000;" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;When the user logins they will automatically see the dashboard.&amp;nbsp; The dashboard shows their current trip which is determined by the last trip that was clicked on or the most recently added trip.&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Helvetica&quot;&gt;The user can click the hamburger nav bar to view &#39;Dashboard&#39;, &#39;All Trips&#39;, &#39;Add Trip&#39;, and &#39;Leave a Review&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Helvetica&quot;&gt;On the Dashboard page they can &#39;Add Expense&#39;, &#39;View Expenses&#39;, &#39;Edit Trip&#39;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Helvetica&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Helvetica&quot; style=&quot;color: rgb(0, 127, 255);&quot;&gt;Shauna will start out on the login page, then go to her dashboard where she can immediately see her current trip and budget with categorical breakdown. She can then view all her logged expenses by clicking on the button to view expenses.&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="655" x="250" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Edit Trip" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-32" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.617;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#007FFF;" target="3xYGQPMeSW1f0xWLX_ws-17">
+          <mxGeometry relative="1" x="0.0933" as="geometry">
+            <mxPoint x="400" y="290" as="sourcePoint" />
+            <mxPoint x="267.03999999999996" y="324.91999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Add Expense" vertex="1">
+          <mxGeometry height="30" width="55" x="80" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3xYGQPMeSW1f0xWLX_ws-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Edit Trip" vertex="1">
+          <mxGeometry height="30" width="55" x="80" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
