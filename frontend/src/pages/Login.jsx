@@ -5,12 +5,14 @@ function Login({ onSwitchToCreate }) {
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
 
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setMessage('');
 
     try {
-      const response = await fetch('http://localhost:3001/api/auth/login', {
+      const response = await fetch(`${API_URL}/api/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
@@ -70,14 +72,14 @@ function Login({ onSwitchToCreate }) {
 
 const styles = {
   page: { padding: '40px 24px', maxWidth: '480px', margin: '0 auto', width: '100%', boxSizing: 'border-box' },
-  title: { textAlign: 'center', fontSize: '32px', color: '#244f85', margin: '20px 0 8px', fontWeight: '700' },
-  tagline: { textAlign: 'center', color: '#555', marginBottom: '40px', fontSize: '15px' },
+  title: { textAlign: 'center', fontSize: '32px', color: '#102a43', margin: '20px 0 8px', fontWeight: '700' },
+  tagline: { textAlign: 'center', color: 'black', marginBottom: '40px', fontSize: '15px' },
   form: { display: 'flex', flexDirection: 'column' },
-  label: { textAlign: 'left', fontSize: '14px', marginBottom: '6px', fontWeight: '500' },
+  label: { color: 'black', textAlign: 'left', fontSize: '14px', marginBottom: '6px', fontWeight: '500' },
   input: { padding: '14px', marginBottom: '18px', border: '1px solid #ccc', borderRadius: '10px', fontSize: '16px' },
-  button: { padding: '16px', background: '#96bff1', color: 'white', border: 'none', borderRadius: '12px', fontSize: '16px', fontWeight: '600', cursor: 'pointer' },
+  button: { padding: '14px', background: '#96bff1', color: '#102a43', boxShadow: '0 1px 2px rgba(0, 0, 0, 0.08)', border: '1px solid #75a8e8', borderRadius: '10px', fontSize: '16px', fontWeight: '600', cursor: 'pointer', alignSelf: 'center' , width: '200px', marginTop: '10px'},
   linkButton: { background: 'none', border: 'none', color: '#244f85', textDecoration: 'underline', fontSize: '15px', cursor: 'pointer' },
-  message: { textAlign: 'center', marginTop: '16px', fontSize: '14px' },
+  message: { padding: '12px', borderRadius: '8px', marginBottom: '10px', fontSize: '14px', textAlign: 'center', marginTop: '16px' },
 };
 
 export default Login;

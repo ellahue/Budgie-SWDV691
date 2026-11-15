@@ -6,12 +6,14 @@ function CreateAccount({ onSwitchToLogin }) {
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
 
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setMessage('');
 
     try {
-      const response = await fetch('http://localhost:3001/api/auth/register', {
+      const response = await fetch(`${API_URL}/api/auth/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password, name }),
@@ -54,12 +56,13 @@ function CreateAccount({ onSwitchToLogin }) {
 }
 
 const styles = {
-  page: { padding: '40px 24px', maxWidth: '480px', margin: '0 auto', width: '100%', boxSizing: 'border-box' },  createTitle: { textAlign: 'center', fontSize: '24px', margin: '10px 0 30px', fontWeight: '600' },
+  page: { position: 'relative', padding: '40px 24px', maxWidth: '480px', margin: '0 auto', width: '100%', boxSizing: 'border-box' },
   form: { display: 'flex', flexDirection: 'column' },
-  label: { textAlign: 'left', fontSize: '14px', marginBottom: '6px', fontWeight: '500' },
+  createTitle: { textAlign: 'center', fontSize: '20px', margin: '0 0 30px', fontWeight: '600', padding: '0 40px' },
+  label: { color: 'black', textAlign: 'left', fontSize: '14px', marginBottom: '6px', fontWeight: '600' },
   input: { padding: '14px', marginBottom: '18px', border: '1px solid #ccc', borderRadius: '10px', fontSize: '16px' },
-  button: { padding: '16px', background: '#96bff1', color: 'white', border: 'none', borderRadius: '12px', fontSize: '16px', fontWeight: '600', cursor: 'pointer' },
-  backButton: { background: 'none', border: 'none', fontSize: '24px', cursor: 'pointer', marginBottom: '10px' },
+  button: { padding: '14px', background: '#96bff1', color: '#102a43', boxShadow: '0 1px 2px rgba(0, 0, 0, 0.08)', border: '1px solid #75a8e8', borderRadius: '10px', fontSize: '16px', fontWeight: '600', cursor: 'pointer', alignSelf: 'center' , width: '200px', marginTop: '10px'},
+  backButton: { position: 'absolute', lineheight: '1', top: '32px', left: '24px', background: 'none', border: 'none', fontSize: '30px', cursor: 'pointer', marginBottom: '10px' },
   message: { textAlign: 'center', marginTop: '16px', fontSize: '14px' },
 };
 
