@@ -1,6 +1,8 @@
 # Budgie-SWDV691
 A repository for my SWDV691 capstone project, Budgie, a travel budgeting app
 Budgie is a mobile app designed to help travelers adhere to a budget and keep expenses organized while they are on vacation. 
+# Live URL
+https://budgie-frontend.onrender.com 
 # Tech Stack
 Frontend: React
 Backend: Node.js + Express
